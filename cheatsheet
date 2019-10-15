@@ -1,0 +1,64 @@
+HTML Cheatsheet
+===============
+
+<!DOCTYPE html>									Start document in html
+<html></html>									To create html doc
+<head> </head>									Set the tite (This is just info that visible only in the source page)
+<body> </body>									Set the body of the document (Everything in the middle will be visible)		
+
+Text
+----
+<h1> </h1> --> <h6> </h6>						To add header (From 1 to 6 in size)
+<b> </b>										Bold text
+<i> </i>										Italicized text
+<em> </em>										Emphasize word (Italic)
+<strong> </strong>								Emphasize word (Bold)
+
+<p> </p>										Create a new paragraph
+<br>											New line in paragraph
+<blockquote> </blockqoute>						Put all in a qoute
+<div> </div>									Used by CSS for class and division to design a block
+<span> </span>									For inline contanet design with CSS 
+
+Links
+-----
+<a href="URL">text </a>							Create hyperlink
+<a href="mailto:EMAIL"> text</a>
+<a name="NAME">									Can be use as a variable inside the document
+<a href="#NAME">								Create alink to a variable\target in the document
+
+Lists
+-----
+<ul> </ul>										Unordered list
+<ol start=?> </ol>								Ordered list
+<li> </li>										Item in list
+<dl> </dl>										Definition list
+<dt>,  <dd>										Item in definition list
+
+Forms
+-----
+<form> </form>									Define a form
+<select multiple name=? size=?> </select>		Scrolling menu
+<select name=?> </select>						Pulldown menu
+<option>										Set menu item
+<input type="checkbox" name=? value=?>	  		Create checkbox
+<input type="radio" name=? value=?>				Create radio button
+<input type="text" name=? size=?>		  		One line text
+<input type="submit" value=?>					Submit button
+<input type="image" name=? src=? border=? alt=?>Create submit button with image
+input type="reset">								Reset button
+
+Tables
+------
+<table> </table>								Create a table
+<tr> </tr>										Row in a table
+<td </td>							 		   	Cell in a table
+<th> </th>								 		Table header
+Table design options:
+<table border=?>,<table cellspacing=?>,<table cellpadding=?>,<table width=?>
+<tr align=?>, <td align=?>,<td rowspan=?>,<td collspan=?>,<td nowrap=?>
+
+Images
+------
+<img src="URL" align=? border=? height=? width=? alt=?/>
+
