@@ -5,6 +5,7 @@ HTML Cheatsheet
 <html></html>									To create html doc
 <head> </head>									Set the tite (This is just info that visible only in the source page)
 <body> </body>									Set the body of the document (Everything in the middle will be visible)		
+<!-- comment text -->							Make a comment
 
 Text
 ----
@@ -22,7 +23,24 @@ Block Elements
 <blockquote> </blockqoute>						Put all in a qoute
 <div> </div>									Define a section (Block level)
 <span> </span>									Define a section (inline) 
+<div>
+<h1> - <h6>
+<p>
+<form>
+<header>
+<footer>
+<section>
 
+Layout Elements
+---------------
+<header> 										Defines a header for a document or a section
+<nav> 											Defines a container for navigation links
+<section> 										Defines a section in a document
+<article>										Defines an independent self-contained article
+<aside> 										Defines content aside from the content (like a sidebar)
+<footer> 										Defines a footer for a document or a section
+<details>									 	Defines additional details
+<summary> 									 	Defines a heading for the <details> element
 
 Links
 -----
@@ -82,6 +100,10 @@ CSS objects
 <p id="pIDname"> </p>							In CSS use #pIDname {}
 <div class="someClass"> </div>					In CSS use .someClass {}
 
+Responsive
+----------
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<img src="img_girl.jpg" style="max-width:100%;height:auto;">
 
 
 
