@@ -16,9 +16,13 @@ Text
 
 <p> </p>										Create a new paragraph
 <br>											New line in paragraph
+
+Block Elements
+--------------
 <blockquote> </blockqoute>						Put all in a qoute
-<div> </div>									Used by CSS for class and division to design a block
-<span> </span>									For inline contanet design with CSS 
+<div> </div>									Define a section (Block level)
+<span> </span>									Define a section (inline) 
+
 
 Links
 -----
@@ -61,4 +65,24 @@ Table design options:
 Images
 ------
 <img src="URL" align=? border=? height=? width=? alt=?/>
+<img src="pic.jpg">								pic.jpg is located in the same folder as the current page
+<img src="images/pic.jpg">						pic.jpg is located in the images folder in the current folder
+<img src="/images/pic.jpg">						pic.jpg is located in the images folder at the root of the current web
+<img src="../pic.jpg">							pic.jpg is located in the folder one level up from the current folder
+<img src="https://www.somewhere.com/pic.jpg">	pic.jpg is linked by URL		
+
+Iframe
+------
+<iframe src="demo_iframe.htm" height="200" width="300"></iframe>
+<iframe src="demo_iframe.htm" style="height:200px;width:300px;"></iframe>
+<iframe src="demo_iframe.htm" style="border:none;"></iframe>
+
+CSS objects
+-----------
+<p id="pIDname"> </p>							In CSS use #pIDname {}
+<div class="someClass"> </div>					In CSS use .someClass {}
+
+
+
+
 
